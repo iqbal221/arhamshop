@@ -1,0 +1,285 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    
+}
+
+body{
+    background:#f6f6f6;
+}
+
+.container-fluid{
+    padding: 0 15px;
+}
+
+.container-fluid .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+/*--------------------------------------------------------------------
+                            TOP SELL
+----------------------------------------------------------------------*/
+.container-fluid{
+    margin:auto;   
+}
+
+#top-sell{
+    width:97%;
+    margin:auto;
+}
+
+.col-md-2  .buy-now{
+    transition:0.8s;
+}
+
+.col-md-2 :hover .buy-now{
+    background:#FF616D;
+}
+
+.col-md-2 :hover .buy-now i.fas.fa-shopping-basket{
+    color:white; 
+}
+
+.col-md-2 :hover .buy-now h4{
+    color:white; 
+}
+
+.container-fluid h3 {
+    border-bottom: 1px solid #99999978;
+    padding-bottom: 10px;
+    color: #444;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top:40px;
+}
+
+.top-image {
+    margin: 20px 0px 10px 0px;
+    padding: 10px 0px 0px;
+    width: 195px;
+    background: white;
+    border: 1px solid rgb(235, 229, 229);
+    cursor:pointer;
+}
+
+.top-image p {
+    font-size: 15px;
+    margin: 18px 20px 5px;
+    text-align:center;
+    line-height: 25px;;
+    color: #666;
+}
+
+h5 {
+    text-align: center;
+    font-size: 16px;
+    color: #088dff;
+    font-weight: bold;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+}
+
+.top-image img{
+    width:100%;
+}
+
+
+.buy-now {
+    border-top: 1px solid rgb(235, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;    
+}
+
+i.fas.fa-shopping-basket {
+    color: red;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #555;
+    font-family: sans-serif;
+    margin-top:10px;
+
+}
+
+/*--------------------------------------------------------------------
+                            FOOTER
+----------------------------------------------------------------------*/
+
+.social-box{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 40px;
+    margin-top:30px;
+    
+}
+
+.social-link ul {
+    padding: 35px 50px;
+}
+
+.social-link ul li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+.social-link ul li a{
+    color:#FFC107;
+}
+
+.social-link ul li:hover a{
+    color:#fff;
+}
+
+/* ------------------footer-info --------------*/
+
+.row-footer{
+    margin-bottom: 50px;    
+}
+
+.row-footer p:hover{
+    color:#FFC107;
+}
+.col-md-2 h4{
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.col-md-3 h4{
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.col-md-4 h4{
+    font-weight: bold;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+.col-md-3 h4,p{
+    text-align: left;
+    margin-left:2px; 
+    cursor:pointer;
+    
+}
+
+
+
+.address{
+    display:flex;  
+    cursor:pointer;  
+}
+
+.address .fas{
+    margin-right:10px;
+    color:#FFC107;
+    
+}
+
+.address h5{
+    color:#555;
+    font-weight: lighter;
+    
+}
+
+/* -----------footer-bottom -----------*/
+
+.footer-bottom{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    border-top: 1px solid #ddd;
+    
+}
+
+.payment-source{
+    display:flex;
+    padding-top:20px;
+}
+
+.payment-source-img {
+    width: 42px;
+    height: 25px;
+    margin-left: 8px;
+    cursor:pointer;
+    
+}
+
+.payment-source-img img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+
+.download-source{
+    width: 100px;
+    height: 50px; 
+    padding-top:20px;
+    cursor:pointer;
+}
+
+.download-source img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+
+.develope{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.develope span {
+    font-size: 15px;
+    color: #777;
+}
+
+/* ---------responsive ---------*/
+
+@media (max-width:768px) {
+  
+
+    .col-md-2{
+        width:190px;
+        margin:0 20px 0 13px;
+    }
+    .top-image p{
+        text-align:center;
+    } 
+
+    .social-link {
+       margin:auto;
+    }
+
+    .social-link ul  {
+        margin-left: 30px;    
+    } 
+
+    .row-footer .col-md-2{
+        margin-left:-2px;
+    }
+
+    .row-footer p:last-child{
+        margin-bottom:40px;
+    }
+
+    .develope{
+        display:block;
+        text-align:center;    
+    }
+
+    .develope div{
+        margin-bottom:10px;
+    }
+}
